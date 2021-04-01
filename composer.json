@@ -1,5 +1,5 @@
 {
-    "name": "RaysAtKanebridge/laravel-odbc-driver",
+    "name": "rays-at-kanbridge/laravel-odbc-driver",
     "description": "ODBC driver for Laravel 5.x to 8.x",
     "type": "library",
     "keywords": ["odbc", "driver", "database"],
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-0": {
-            "RaysAtKanebridge\\ODBCDriver": "src/"
+            "rays-at-kanbridge\\ODBCDriver": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "RaysAtKanebridge\\ODBCDriver\\ODBCDriverServiceProvider"
+                "rays-at-kanbridge\\ODBCDriver\\ODBCDriverServiceProvider"
             ]
         }
     }
